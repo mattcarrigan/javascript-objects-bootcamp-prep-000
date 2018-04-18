@@ -11,15 +11,15 @@ function updatePlaylist (playlist, artistName, songTitle) {
 updatePlaylist (playlist,'My Bloody Valentine',"Sometimes")
 updatePlaylist (playlist,'Slowdive',"Alison")
 
-/*
+
 function removeFromPlaylist(playlist, artistName){
-  delete playlist.artistName;
+  delete playlist.[artistName];
   return playlist;
 }
 
 removeFromPlaylist(playlist,'Slowdive');
 
-*/
+/*
 
 function removeFromPlaylist(){
   delete playlist.Slowdive;
@@ -27,7 +27,7 @@ function removeFromPlaylist(){
   
   removeFromPlaylist();
 
-
+*/
 
 
 
